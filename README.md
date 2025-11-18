@@ -1,1 +1,0 @@
-# mi-vpc-terraform
