@@ -1,0 +1,25 @@
+# Proyecto Terraform: VPC en AWS (Listo para Codespaces)
+
+Este proyecto despliega:
+- Una VPC completa
+- Subred pública
+- Internet Gateway
+- Route Table
+- Security Group
+- Una EC2 que muestra una página web
+
+## Cómo usar en GitHub Codespaces
+
+1. Abrir el repositorio en Codespaces  
+2. Ejecutar:
+```
+terraform init
+terraform plan
+terraform apply
+```
+3. Abrir la IP pública mostrada por Terraform en el navegador.
+
+Para eliminar todo:
+```
+terraform destroy
+```
